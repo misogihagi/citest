@@ -1,8 +1,8 @@
 name: Sample workflow bra1
 on:
   issues:
-    - created
-    - opened
+    types:
+      - opened
 jobs:
   bra1:
     runs-on: ubuntu-latest
