@@ -14,4 +14,4 @@ jobs:
           node-version: 18
           cache: pnpm
           
-      - run: pnpm install
+      - run: pnpm instal --frozen-lockfile
